@@ -1,9 +1,0 @@
-{
-    "main": "./index.html",
-    "width": 1280,
-    "height": 720,
-    "minimize": false,
-    "maximize": true,
-    "resizable": true,
-    "fullscreen": false
-}
