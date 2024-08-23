@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .35;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="_디자인" data-name="디자인">
+    <g class="cls-1">
+      <circle class="cls-2" cx="6.5" cy="6.5" r="6.5"/>
+    </g>
+  </g>
+</svg>

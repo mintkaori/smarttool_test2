@@ -1,0 +1,883 @@
+/*!**********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/common.css ***!
+  \**********************************************************************/
+@charset "utf-8";
+/* font */
+
+@font-face {
+  font-family: "NanumSquareB";
+  src: url(../../src/font/NanumSquareB..woff?5d53333fc9d6d4bce630) format("woff");
+}
+
+@font-face {
+  font-family: "ygotjalnanfont";
+  src: url(../../src/font/ygotjalnanfont..woff?1deed54d51aba7bc2c8e) format("woff");
+}
+
+/* layout */
+body {
+  overflow: hidden;
+  font-family: 'NanumSquareRoundB', sans-serif;
+}
+
+/* 공통 */
+.disable {
+  pointer-events: none !important;
+}
+
+.remove {
+  display: none !important;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.hide-alpha {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.inline {
+  position: static !important;
+  display: inline-block !important;
+  vertical-align: top;
+}
+
+.bgImg-ab {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+textarea,
+input[type="text"] {
+  font-family: 'NanumSquareRoundB', sans-serif;
+}
+
+/* ie 입력창 X 제거 */
+input[type=text]::-ms-clear {
+  display: none;
+}
+
+.t-a-center {
+  text-align: center;
+}
+
+.t-a-left {
+  text-align: left;
+}
+
+.t-a-right {
+  text-align: right;
+}
+
+.t-a-justify {
+  text-align: justify;
+}
+
+
+/* 스크롤 바 */
+.scrollOutBox {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+/* scroll_bar의 폭 너비 */
+.scrollOutBox::-webkit-scrollbar {
+  width: 6px;
+  /* background: url(../img/scroll_bar.svg) no-repeat; */
+}
+
+.scrollOutBox::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #adadad;
+}
+
+::selection {
+  background: none;
+}
+
+.none {
+  opacity: 0;
+  pointer-events: none;
+}
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/index.css ***!
+  \*********************************************************************/
+/* preload */
+body::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content:
+  url(../../src/img/sprite_lesson_01..png?5f4e0c13a7047c3f17ca)
+  url(../../src/img/sprite_lesson_02..png?64424bca6e43bfd908d4)
+  url(../../src/img/sprite_lesson_03..png?d5173ec52d8b0fb53ca9)
+  url(../../src/img/sprite_lesson_04..png?85d00624f5d6f63c1d75)
+  url(../../src/img/sprite_lesson_05..png?0909f24460f5fe4b99a0)
+  url(../../src/img/sprite_lesson_06..png?895fe039214fdbbbf0d0)
+  url(../../src/img/sprite_lesson_07..png?9377f607fee6022cff72)
+  url(../../src/img/sprite_lesson_08..png?c1fc4fcbb45c3dd1ffcf)
+  url(../../src/img/sprite_start_01..png?419c0931b23379572ace)
+  url(../../src/img/sprite_start_02..png?56e1b349aace362994b5)
+  url(../../src/img/sprite_start_03..png?582cff89923b9b034dd3)
+  url(../../src/img/sprite_start_04..png?edbfbde0294996625120)
+  url(../../src/img/sprite_start_05..png?9e634aca8f312772adeb)
+  url(../../src/img/sprite_start_06..png?7475277f1507edf75b66)
+  url(../../src/img/sprite_start_07..png?760d72124496eb061d2b)
+  url(../../src/img/sprite_start_08..png?f91e37486d4728526d5b);
+}
+
+body {
+  position: fixed;
+}
+
+.header_bar {
+  position: relative;
+}
+
+#wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1280px;
+  height: 720px;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+}
+
+.video video {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1280px;
+  height: 720px;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+  /* background: url(../img/bg_guide.png) no-repeat; */
+}
+
+/* 타이틀 */
+.title {
+  position: absolute;
+  left: 85px;
+  top: 12px;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: 'ygotjalnanfont';
+  letter-spacing: -1px;
+}
+
+.title_bg {
+  position: absolute;
+  left: 14px;
+  top: 17px;
+  width: 60px;
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.6em;
+  font-family: 'ygotjalnanfont';
+  background: url(../../src/img/title..svg?72b9877c917c9317b7e4) no-repeat;
+}
+
+/* 내 수업하기 버튼 */
+.class_btn {
+  position: absolute;
+  left: 1019px;
+  top: 12px;
+  width: 108px;
+  height: 34px;
+  display: block;
+  text-align: center;
+  font-family: 'ygotjalnanfont';
+  font-size: 16px;
+  line-height: 2em;
+  background: url(../../src/img/class_btn_bg..svg?03404cd3fd4ab3ccb924) no-repeat;
+}
+
+/* 진도 보기 버튼 */
+.progress_btn {
+  position: absolute;
+  left: 1134px;
+  top: 12px;
+  width: 94px;
+  height: 34px;
+  display: block;
+  text-align: center;
+  font-family: 'ygotjalnanfont';
+  font-size: 16px;
+  line-height: 2em;
+  background: url(../../src/img/progress_btn_bg..svg?f678cf4d777a516d74b9) no-repeat;
+}
+
+/* 사용 설명서 버튼 */
+.help_btn {
+  position: absolute;
+  left: 1235px;
+  top: 12px;
+  width: 36px;
+  height: 36px;
+}
+
+/* 자료실 버튼 */
+.archive_btn {
+  position: absolute;
+  left: 490px;
+  top: 652px;
+  width: 140px;
+  height: 46px;
+  display: block;
+  text-indent: 52px;
+  font-family: 'ygotjalnanfont';
+  font-size: 22px;
+  line-height: 2.1em;
+}
+
+.digital_btn {
+  position: absolute;
+  left: 650px;
+  top: 652px;
+  width: 181px;
+  height: 46px;
+  text-indent: 48px;
+  font-size: 22px;
+  font-family: 'ygotjalnanfont';
+  line-height: 2.1em;
+}
+
+.lesson_box {
+  position: absolute;
+  left: 120px;
+  top: 40px;
+}
+
+.lesson_btn {
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  width: 310px;
+  height: 310px;
+}
+
+.lesson_btn div.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  left: -2px;
+  top: -11px;
+}
+.lesson_btn div.front.on {
+  transform: scale(0.6);
+}
+
+.lesson_btn div.back {
+  position: absolute;
+  width: 238px;
+  height: 269px;
+  left: 43px;
+  top: 0px;
+  border-radius: 30px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background: #ffffff;
+}
+
+.lesson_btn div.back .lesson_num {
+  position: absolute;
+  left: 14px;
+  top: 20px;
+  width: 207px;
+  font-size: 24px;
+  font-family: 'ygotjalnanfont';
+  overflow: hidden;
+  letter-spacing: -0.5px;
+}
+
+.lesson_btn div.back .lesson_title {
+  position: absolute;
+  left: -1px;
+  top: 65px;
+  width: 239px;
+  height: 125px;
+  padding: 0px 10px;
+  color: #4D4D4D;
+  font-size: 50px;
+  font-family: 'ygotjalnanfont';
+  text-align: center;
+  line-height: 1.3em;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+
+.lesson_btn div.back .ebook_btn {
+  position: absolute;
+  left: 17px;
+  top: 214px;
+  color: #ffffff;
+  font-size: 19px;
+  font-family: 'ygotjalnanfont';
+  text-align: center;
+  line-height: 1.9em;
+  width: 202px;
+  height: 37px;
+  border-radius: 10px;
+}
+
+.notice {
+  position: absolute;
+  left: 905px;
+  top: 698px;
+  font-family: 'NanumSquareB';
+  font-size: 11px;
+  color: #A66B75;
+  opacity: 0.5;
+}
+
+
+/* chapter 목차 */
+#chapter_popup {
+  position: relative;
+  width: 1280px;
+  height: 720px;
+}
+
+
+#chapter_popup .chapter_content {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#chapter_popup .chapter_bg {
+  position: absolute;
+  left: 575px;
+  top: 55px;
+  width: 700px;
+  height: 650px;
+  display: inline-block;
+  pointer-events: none;
+}
+
+#chapter_popup .chapter_close_btn {
+  position: absolute;
+  left: 1189px;
+  top: 8px;
+  width: 65px;
+  height: 65px;
+}
+
+#chapter_popup .chapter_navi {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+
+#chapter_popup .chapter_navi_dot {
+  position: absolute;
+  left: 48px;
+  top: 47px;
+  width: 14px;
+  height: 14px;
+  background: url(../../src/img/chapter_navi_dot_off..svg?c31417e4f5117c666d20) no-repeat;
+}
+
+#chapter_popup .chapter_navi_dot.on::before {
+  content: attr(data-chapter);
+  pointer-events: none;
+  position: relative;
+  left: -18px;
+  top: -38px;
+  display: inline;
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: 'ygotjalnanfont';
+  font-size: 14px;
+  padding: 7px;
+  white-space: nowrap;
+}
+
+#chapter_popup .chapter_navi_dot.on::after {
+  content: '';
+  pointer-events: none;
+  display: inline-block;
+  border: 6px solid transparent;
+  border-top-color: #ffffff;
+  position: absolute;
+  left: 1px;
+  top: -12px;
+}
+
+#chapter_popup .chapter_navi_dot:nth-child(3) {left: 72px;}
+#chapter_popup .chapter_navi_dot:nth-child(4) {left: 96px;}
+#chapter_popup .chapter_navi_dot:nth-child(5) {left: 121px;}
+#chapter_popup .chapter_navi_dot:nth-child(6) {left: 145px;}
+#chapter_popup .chapter_navi_dot:nth-child(7) {left: 169px;}
+#chapter_popup .chapter_navi_dot:nth-child(8) {left: 193px;}
+
+#chapter_popup .chapter_navi_left {
+  position: absolute;
+  left: 6px;
+  top: 42px;
+  width: 25px;
+  height: 25px;
+}
+
+#chapter_popup .chapter_navi_right {
+  position: absolute;
+  top: 42px;
+  width: 25px;
+  height: 25px;
+}
+
+
+#chapter_popup .chapter_list_box {
+  position: absolute;
+  left: 619px;
+  top: 155px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 610px;
+  height: 497px;
+  letter-spacing: -1.5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#chapter_popup .chapter_list_box.ten {
+  flex-flow: wrap;
+}
+
+#chapter_popup .chapter_list_btn {
+  width: 590px;
+  min-height: 42px;
+  padding-left: 110px;
+  line-height: 2.5em;
+  text-align: left;
+  font-size: 17px;
+  font-family: 'ygotjalnanfont';
+  color: #000000;
+  margin: 4px 0;
+  /* display: inline-table; */
+  /* width: max-content;
+  max-width: 540px;
+  letter-spacing: -1px;
+  word-break: keep-all; */
+}
+
+#chapter_popup .chapter_list_btn.twoline {
+  min-height: 82px;
+}
+
+
+#chapter_popup .chapter_list_btn .list_num {
+  position: absolute;
+  left: 11px;
+  font-size: 20px;
+  pointer-events: none;
+  text-align: left;
+  font-family: 'ygotjalnanfont';
+  color: #898887;
+  white-space: nowrap;
+}
+
+#chapter_popup .chapter_list_btn .list_text {
+  min-height: 42px;
+  font-size: 23px;
+  pointer-events: none;
+  text-align: left;
+  font-family: 'ygotjalnanfont';
+  color: #575756;
+  overflow: hidden;
+  word-break: keep-all;
+  /* white-space: nowrap; */
+  /* text-overflow: ellipsis; */
+
+
+}
+
+#chapter_popup .chapter_list_btn.active .list_num,
+#chapter_popup .chapter_list_btn.hover .list_num {
+  position: absolute;
+  left: 11px;
+  width: 30px;
+  font-size: 20px;
+  font-family: 'ygotjalnanfont';
+
+}
+
+#chapter_popup .chapter_list_btn.active .list_text,
+#chapter_popup .chapter_list_btn.hover .list_text {
+  color: #ffffff;
+}
+
+#chapter_popup .chapter_list_btn.active,
+#chapter_popup .chapter_list_btn.hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+
+#chapter_popup .chapter_list_btn:first-child {
+  margin-top: 0;
+}
+#chapter_popup .chapter_list_btn:last-child {
+  margin-bottom: 0;
+}
+
+#chapter_popup .chapter_list_title {
+  position: absolute;
+  left: 626px;
+  top: 97px;
+  width: 171px;
+  height: 47px;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'ygotjalnanfont';
+  text-align: center;
+  line-height: 2em;
+  letter-spacing: -1px;
+}
+
+#chapter_popup .chapter_num {
+  font-size: 46px;
+  font-family: 'ygotjalnanfont';
+  position: relative;
+  left: 56px;
+  top: 108px;
+  display: block;
+  width: 540px;
+  min-height: 59px;
+  word-break: keep-all;
+}
+
+#chapter_popup .chapter_title {
+  color: #ffffff;
+  font-size: 68px;
+  font-family: 'ygotjalnanfont';
+  position: relative;
+  left: 56px;
+  top: 105px;
+  display: inline-block;
+  width: max-content;
+  max-width: 540px;
+  letter-spacing: -1px;
+  word-break: keep-all;
+}
+
+
+.point-none {
+  pointer-events: none;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+#chapter_popup .chapter_content .chapter_sprite.on {
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+}
+
+/* 스크롤바 설정*/
+.chapter_list_box::-webkit-scrollbar{
+  width: 8px;
+}
+
+/* 스크롤바 막대 설정*/
+.chapter_list_box::-webkit-scrollbar-thumb{
+  background: #16D3D3;
+  border-radius: 25px;
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.chapter_list_box::-webkit-scrollbar-track{
+  background-color: #DCE5E4;
+  border-radius: 25px;
+}
+
+/* 기본 애니메이션 */
+@keyframes sprite_ani {
+  to {background-position: right 0px;}
+  from {background-position: 0px 0px;}
+}
+@-webkit-keyframes sprite_ani {
+  to {background-position: right 0px;}
+  from {background-position: 0px 0px;}
+}
+@-ms-keyframes sprite_ani {
+  to {background-position: right 0px;}
+  from {background-position: 0px 0px;}
+}
+#wrap .lesson_box .lesson_btn.ani_1 .front.on {background: url(../../src/img/sprite_lesson_01..png?5f4e0c13a7047c3f17ca) no-repeat;}
+#wrap .lesson_box .lesson_btn.ani_2 .front.on {background: url(../../src/img/sprite_lesson_02..png?64424bca6e43bfd908d4) no-repeat;}
+#wrap .lesson_box .lesson_btn.ani_3 .front.on {background: url(../../src/img/sprite_lesson_03..png?d5173ec52d8b0fb53ca9) no-repeat;}
+#wrap .lesson_box .lesson_btn.ani_4 .front.on {background: url(../../src/img/sprite_lesson_04..png?85d00624f5d6f63c1d75) no-repeat;}
+#wrap .lesson_box .lesson_btn.ani_5 .front.on {background: url(../../src/img/sprite_lesson_05..png?0909f24460f5fe4b99a0) no-repeat;}
+#wrap .lesson_box .lesson_btn.ani_6 .front.on {background: url(../../src/img/sprite_lesson_06..png?895fe039214fdbbbf0d0) no-repeat;}
+#wrap .lesson_box .lesson_btn.ani_7 .front.on {background: url(../../src/img/sprite_lesson_07..png?9377f607fee6022cff72) no-repeat;}
+#wrap .lesson_box .lesson_btn.ani_8 .front.on {background: url(../../src/img/sprite_lesson_08..png?c1fc4fcbb45c3dd1ffcf) no-repeat;}
+#chapter_popup .chapter_content .chapter_sprite.ani_1.on {background: url(../../src/img/sprite_start_01..png?419c0931b23379572ace) no-repeat;}
+#chapter_popup .chapter_content .chapter_sprite.ani_2.on {background: url(../../src/img/sprite_start_02..png?56e1b349aace362994b5) no-repeat;}
+#chapter_popup .chapter_content .chapter_sprite.ani_3.on {background: url(../../src/img/sprite_start_03..png?582cff89923b9b034dd3) no-repeat;}
+#chapter_popup .chapter_content .chapter_sprite.ani_4.on {background: url(../../src/img/sprite_start_04..png?edbfbde0294996625120) no-repeat;}
+#chapter_popup .chapter_content .chapter_sprite.ani_5.on {background: url(../../src/img/sprite_start_05..png?9e634aca8f312772adeb) no-repeat;}
+#chapter_popup .chapter_content .chapter_sprite.ani_6.on {background: url(../../src/img/sprite_start_06..png?7475277f1507edf75b66) no-repeat;}
+#chapter_popup .chapter_content .chapter_sprite.ani_7.on {background: url(../../src/img/sprite_start_07..png?760d72124496eb061d2b) no-repeat;}
+#chapter_popup .chapter_content .chapter_sprite.ani_8.on {background: url(../../src/img/sprite_start_08..png?f91e37486d4728526d5b) no-repeat;}
+
+/* 카드 갯수별 속성 */
+/* 7 */
+#wrap[cardnumber='7'] #chapter_popup .chapter_navi_right {left: 224px;}
+#wrap[cardnumber='7'] #chapter_popup .chapter_navi_dot:nth-child(9) {visibility: hidden;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(1) {left: 120px;top: 23px;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(2) {left: 375px;top: 23px;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(3) {left: 628px;top: 23px;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(4) {left: -3px;top: 305px;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(5) {left: 254px;top: 305px;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(6) {left: 513px;top: 305px;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(7) {left: 767px;top: 305px;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(n+4):nth-child(-n+7) .back {top: 0px;}
+#wrap[cardNumber='7'] .lesson_btn:nth-child(8) {visibility: hidden;}
+/* 8 */
+#wrap[cardNumber='8'] .lesson_btn:nth-child(1) {left: -3px;top: 23px;}
+#wrap[cardNumber='8'] .lesson_btn:nth-child(2) {left: 254px;top: 23px;}
+#wrap[cardNumber='8'] .lesson_btn:nth-child(3) {left: 513px;top: 23px;}
+#wrap[cardNumber='8'] .lesson_btn:nth-child(4) {left: 767px;top: 23px;}
+#wrap[cardNumber='8'] .lesson_btn:nth-child(5) {left: -3px;top: 305px;}
+#wrap[cardNumber='8'] .lesson_btn:nth-child(6) {left: 254px;top: 305px;}
+#wrap[cardNumber='8'] .lesson_btn:nth-child(7) {left: 513px;top: 305px;}
+#wrap[cardNumber='8'] .lesson_btn:nth-child(8) {left: 767px;top: 305px;}
+#wrap[cardNumber='8'] .lesson_btn:nth-child(n+5):nth-child(-n+8) .back {top: 15px;}
+#wrap[cardnumber='8'] #chapter_popup .chapter_navi_dot:nth-child(9) {left: 217px;}
+#wrap[cardnumber='8'] #chapter_popup .chapter_navi_right {left: 248px;}
+
+/* 학년 학기별 속성 */
+/* 1-1 */
+body[subject='1-1'] .bg {background-color: #FABEBE;}
+body[subject='1-1'] .title_bg {color: #FABEBE;}
+body[subject='1-1'] .class_btn {color: #D4145A;}
+body[subject='1-1'] .progress_btn {color: #D4145A;}
+body[subject='1-1'] .help_btn {background: url(../../src/img/help_btn_bg..svg?8f2630e1e167de442bf2) no-repeat;}
+body[subject='1-1'] .archive_btn {color: #D4145A;background: url(../../src/img/archive_btn_bg..svg?d6b2254dd7c57481b031) no-repeat;}
+body[subject='1-1'] .digital_btn {color: #D4145A;background: url(../../src/img/digital_btn_bg..svg?0d40dacac2b023ae3c28) no-repeat;}
+body[subject='1-1'] .lesson_btn div.back .lesson_num {color: #D4145A;}
+body[subject='1-1'] .lesson_btn div.back .ebook_btn {background: #F54A66;}
+body[subject='1-1'] #chapter_popup {background-color: #FABEBE;}
+body[subject='1-1'] #chapter_popup .chapter_num {color: #fdebeb;text-shadow: 3.5px 3.5px #d76b7b;}
+body[subject='1-1'] #chapter_popup .chapter_title {text-shadow: 3.5px 3.5px #CE6784;}
+body[subject='1-1'] #chapter_popup .chapter_navi_dot.on::before {color: #D4145A;}
+body[subject='1-1'] #chapter_popup .chapter_list_title {background-color: #FF7BAC;}
+body[subject='1-1'] #chapter_popup .chapter_list_btn.active .list_num {color: #FCC8D1;}
+body[subject='1-1'] #chapter_popup .chapter_list_btn.hover .list_num {color: #FCC8D1;}
+body[subject='1-1'] #chapter_popup .chapter_list_btn.active {background: #F54A66;}
+body[subject='1-1'] #chapter_popup .chapter_list_btn.hover {background: #F54A66;}
+body[subject='1-1'] #chapter_popup .chapter_navi_dot.on {background: url(../../src/img/chapter_navi_dot_on..svg?9db02b544eab536a08dc) no-repeat;}
+body[subject='1-1'] #chapter_popup .chapter_navi_left {background: url(../../src/img/chapter_navi_left..svg?67c5b62f06f3b0bda181) no-repeat;}
+body[subject='1-1'] #chapter_popup .chapter_navi_right {background: url(../../src/img/chapter_navi_right..svg?17be8428710219b29077) no-repeat;}
+body[subject='1-1'] #chapter_popup .chapter_close_btn {background: url(../../src/img/chapter_close_btn..svg?1df28ed1dfdebc793b11) no-repeat;}
+body[subject='1-1'] #chapter_popup .chapter_bg {background: url(../../src/img/chapter_bg..svg?4a904183a2f2616d0948) no-repeat;}
+body[subject='1-1'] .lesson_btn:nth-child(1) .front {background: url(../../src/img/lesson_btn_01..png?b06c3b4a889833aad94d) no-repeat;background-size: 310px 319px;}
+body[subject='1-1'] .lesson_btn:nth-child(2) .front {background: url(../../src/img/lesson_btn_02..png?ced485284314900b43c0) no-repeat;background-size: 310px 317px;}
+body[subject='1-1'] .lesson_btn:nth-child(3) .front {background: url(../../src/img/lesson_btn_03..png?2fb78bb4c448bf650904) no-repeat;background-size: 310px 319px;}
+body[subject='1-1'] .lesson_btn:nth-child(4) .front {background: url(../../src/img/lesson_btn_04..png?8940fdae9a1c0a71546c) no-repeat;background-size: 309px 322px;background-position-y: 10px;}
+body[subject='1-1'] .lesson_btn:nth-child(5) .front {background: url(../../src/img/lesson_btn_05..png?0644d40b967d1c841bdb) no-repeat;background-size: 309px 315px;background-position-y: 10px;}
+body[subject='1-1'] .lesson_btn:nth-child(6) .front {background: url(../../src/img/lesson_btn_06..png?8e1346c1882ac372dd95) no-repeat;background-size: 310px 317px;background-position-y: 10px;}
+body[subject='1-1'] .lesson_btn:nth-child(7) .front {background: url(../../src/img/lesson_btn_07..png?ab50ddb647123452e862) no-repeat;background-size: 309px 312px;background-position-y: 14px;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_1 .front.on {-webkit-animation: steps(53) 1.5s infinite;-ms-animation: steps(53) 1.5s infinite;animation: steps(53) 1.5s infinite;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_2 .front.on {-webkit-animation: steps(36) 1.5s infinite;-ms-animation: steps(36) 1.5s infinite;animation: steps(36) 1.5s infinite;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_3 .front.on {-webkit-animation: steps(49) 1.5s infinite;-ms-animation: steps(49) 1.5s infinite;animation: steps(49) 1.5s infinite;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_4 .front.on {-webkit-animation: steps(52) 1.5s infinite;-ms-animation: steps(52) 1.5s infinite;animation: steps(52) 1.5s infinite;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_5 .front.on {-webkit-animation: steps(52) 1.5s infinite;-ms-animation: steps(52) 1.5s infinite;animation: steps(52) 1.5s infinite;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_6 .front.on {-webkit-animation: steps(52) 1.5s infinite;-ms-animation: steps(52) 1.5s infinite;animation: steps(52) 1.5s infinite;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_7 .front.on {-webkit-animation: steps(58) 1.5s infinite;-ms-animation: steps(58) 1.5s infinite;animation: steps(58) 1.5s infinite;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_1 .front.on {width: 612px;height: 620px;top: -166px;left: -157px;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_2 .front.on {width: 619px;height: 620px;top: -166px;left: -157px;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_3 .front.on {width: 619px;height: 620px;top: -166px;left: -157px;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_4 .front.on {width: 618px;height: 620px;top: -156px;left: -157px;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_5 .front.on {width: 618px;height: 620px;top: -156px;left: -157px;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_6 .front.on {width: 619px;height: 620px;top: -156px;left: -157px;}
+body[subject='1-1'] #wrap .lesson_box .lesson_btn.ani_7 .front.on {width: 618px;height: 620px;top: -156px;left: -157px;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_1.on {-webkit-animation: steps(53) 1.5s infinite;-ms-animation: steps(53) 1.5s infinite;animation: steps(53) 1.5s infinite;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_2.on {-webkit-animation: steps(36) 1.5s infinite;-ms-animation: steps(36) 1.5s infinite;animation: steps(36) 1.5s infinite;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_3.on {-webkit-animation: steps(49) 1.5s infinite;-ms-animation: steps(49) 1.5s infinite;animation: steps(49) 1.5s infinite;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_4.on {-webkit-animation: steps(52) 1.5s infinite;-ms-animation: steps(52) 1.5s infinite;animation: steps(52) 1.5s infinite;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_5.on {-webkit-animation: steps(52) 1.5s infinite;-ms-animation: steps(52) 1.5s infinite;animation: steps(52) 1.5s infinite;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_6.on {-webkit-animation: steps(52) 1.5s infinite;-ms-animation: steps(52) 1.5s infinite;animation: steps(52) 1.5s infinite;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_7.on {-webkit-animation: steps(58) 1.5s infinite;-ms-animation: steps(58) 1.5s infinite;animation: steps(58) 1.5s infinite;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_1.on {top: 80px;width: 619px;height: 639px;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_2.on {top: 85px;width: 619px;height: 635px;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_3.on {top: 81px;width: 619px;height: 639px;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_4.on {top: 76px;width: 618px;height: 644px;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_5.on {top: 90px;width: 618px;height: 630px;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_6.on {top: 85px;width: 619px;height: 635px;}
+body[subject='1-1'] #chapter_popup .chapter_content .chapter_sprite.ani_7.on {top: 96px;width: 618px;height: 624px;}
+
+/* 2-1 */
+body[subject='2-1'] .bg {background-color: #97D4F2;}
+body[subject='2-1'] .title_bg {color: #97D4F2;}
+body[subject='2-1'] .class_btn {color: #1F5FA0;}
+body[subject='2-1'] .progress_btn {color: #1F5FA0;}
+body[subject='2-1'] .help_btn {background: url(../../src/img/2-1/help_btn_bg..svg?d81fcc95d4ccf08c5899) no-repeat;}
+body[subject='2-1'] .archive_btn {color: #1F5FA0;background: url(../../src/img/2-1/archive_btn_bg..svg?76c650e4aa30b2082d32) no-repeat;}
+body[subject='2-1'] .digital_btn {color: #1F5FA0;background: url(../../src/img/2-1/digital_btn_bg..svg?35ca8e6fb31c09c12265) no-repeat;}
+body[subject='2-1'] .lesson_btn div.back .lesson_num {color: #1F5FA0;}
+body[subject='2-1'] .lesson_btn div.back .ebook_btn {background: #3e91d6;}
+body[subject='2-1'] #chapter_popup {background-color: #97D4F2;}
+body[subject='2-1'] #chapter_popup .chapter_num {color: #e0f2fb;text-shadow: 3.5px 3.5px #4983bb;}
+body[subject='2-1'] #chapter_popup .chapter_title {text-shadow: 3.5px 3.5px #2760a4;}
+body[subject='2-1'] #chapter_popup .chapter_navi_dot.on::before {color: #1F5FA0;}
+body[subject='2-1'] #chapter_popup .chapter_list_title {background-color: #5DBEF4;}
+body[subject='2-1'] #chapter_popup .chapter_list_btn.active .list_num {color: #dedede;}
+body[subject='2-1']  #chapter_popup .chapter_list_btn.hover .list_num {color: #dedede;}
+body[subject='2-1'] #chapter_popup .chapter_list_btn.active {background: #3e91d6;}
+body[subject='2-1'] #chapter_popup .chapter_list_btn.hover {background: #3e91d6;}
+body[subject='2-1'] #chapter_popup .chapter_navi_dot.on {background: url(../../src/img/2-1/chapter_navi_dot_on..svg?7f0f6c8442ca14c91b23) no-repeat;}
+body[subject='2-1'] #chapter_popup .chapter_navi_left {background: url(../../src/img/2-1/chapter_navi_left..svg?381d9d2907428ac8d060) no-repeat;}
+body[subject='2-1'] #chapter_popup .chapter_navi_right {background: url(../../src/img/2-1/chapter_navi_right..svg?64699674a2b1d4086dc2) no-repeat;}
+body[subject='2-1'] #chapter_popup .chapter_close_btn {background: url(../../src/img/2-1/chapter_close_btn..svg?cb1fcc028e76606e476b) no-repeat;}
+body[subject='2-1'] #chapter_popup .chapter_bg {background: url(../../src/img/2-1/chapter_bg..svg?3e520da8dffee9fd0341) no-repeat;}
+body[subject='2-1'] .lesson_btn:nth-child(1) .front {background: url(../../src/img/2-1/lesson_btn_01..png?20eb7d230a6a4cdc5ed8) no-repeat;background-size: 306px 318px;}
+body[subject='2-1'] .lesson_btn:nth-child(2) .front {background: url(../../src/img/2-1/lesson_btn_02..png?4996bf6f46926e16da7c) no-repeat;background-size: 306px 314px;}
+body[subject='2-1'] .lesson_btn:nth-child(3) .front {background: url(../../src/img/2-1/lesson_btn_03..png?9af9c8c42ae3c72350ec) no-repeat;background-size: 306px 322px;}
+body[subject='2-1'] .lesson_btn:nth-child(4) .front {background: url(../../src/img/2-1/lesson_btn_04..png?e4f62265ea753ebf5c86) no-repeat;background-size: 307px 321px;background-position-y: 10px;}
+body[subject='2-1'] .lesson_btn:nth-child(5) .front {background: url(../../src/img/2-1/lesson_btn_05..png?961009e607e6f32d6215) no-repeat;background-size: 306px 323px;background-position-y: 10px;}
+body[subject='2-1'] .lesson_btn:nth-child(6) .front {background: url(../../src/img/2-1/lesson_btn_06..png?e2041faf3aedf9a6155e) no-repeat;background-size: 306px 321px;background-position-y: 10px;}
+body[subject='2-1'] .lesson_btn:nth-child(7) .front {background: url(../../src/img/2-1/lesson_btn_07..png?2b1e7febe3690f35a4b1) no-repeat;background-size: 306px 315px;background-position-y: 14px;}
+body[subject='2-1'] .lesson_btn:nth-child(8) .front {background: url(../../src/img/2-1/lesson_btn_08..png?802010b95399853b4c7a) no-repeat;background-size: 306px 310px;background-position-y: 14px;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_1 .front.on {-webkit-animation: steps(53) 2s infinite;-ms-animation: steps(53) 2s infinite;animation: steps(53) 2s infinite;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_2 .front.on {-webkit-animation: steps(49) 2s infinite;-ms-animation: steps(49) 2s infinite;animation: steps(49) 2s infinite;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_3 .front.on {-webkit-animation: steps(49) 2s infinite;-ms-animation: steps(49) 2s infinite;animation: steps(49) 2s infinite;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_4 .front.on {-webkit-animation: steps(59) 2s infinite;-ms-animation: steps(59) 2s infinite;animation: steps(59) 2s infinite;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_5 .front.on {-webkit-animation: steps(52) 2s infinite;-ms-animation: steps(52) 2s infinite;animation: steps(52) 2s infinite;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_6 .front.on {-webkit-animation: steps(53) 2s infinite;-ms-animation: steps(53) 2s infinite;animation: steps(53) 2s infinite;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_7 .front.on {-webkit-animation: steps(39) 2s infinite;-ms-animation: steps(39) 2s infinite;animation: steps(39) 2s infinite;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_8 .front.on {-webkit-animation: steps(58) 2s infinite;-ms-animation: steps(58) 2s infinite;animation: steps(58) 2s infinite;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_1 .front.on {width: 612px;height: 636px;top: -170px;left: -155px;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_2 .front.on {width: 612px;height: 628px;top: -168px;left: -155px;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_3 .front.on {width: 612px;height: 644px;top: -172px;left: -155px;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_4 .front.on {width: 614px;height: 642px;top: -171.7px;left: -155.5px;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_5 .front.on {width: 612px;height: 646px;top: -163px;left: -155px;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_6 .front.on {width: 612px;height: 642px;top: -161px;left: -155px;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_7 .front.on {width: 612px;height: 630px;top: -158px;left: -155px;}
+body[subject='2-1'] #wrap .lesson_box .lesson_btn.ani_8 .front.on {width: 612px;height: 620px;top: -148px;left: -155px;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_1.on {-webkit-animation: steps(53) 2s infinite;-ms-animation: steps(53) 2s infinite;animation: steps(53) 2s infinite;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_2.on {-webkit-animation: steps(49) 2s infinite;-ms-animation: steps(49) 2s infinite;animation: steps(49) 2s infinite;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_3.on {-webkit-animation: steps(49) 2s infinite;-ms-animation: steps(49) 2s infinite;animation: steps(49) 2s infinite;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_4.on {-webkit-animation: steps(59) 2s infinite;-ms-animation: steps(59) 2s infinite;animation: steps(59) 2s infinite;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_5.on {-webkit-animation: steps(52) 2s infinite;-ms-animation: steps(52) 2s infinite;animation: steps(52) 2s infinite;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_6.on {-webkit-animation: steps(53) 2s infinite;-ms-animation: steps(53) 2s infinite;animation: steps(53) 2s infinite;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_7.on {-webkit-animation: steps(39) 2s infinite;-ms-animation: steps(39) 2s infinite;animation: steps(39) 2s infinite;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_8.on {-webkit-animation: steps(58) 2s infinite;-ms-animation: steps(58) 2s infinite;animation: steps(58) 2s infinite;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_1.on {top: 80px;width: 612px;height: 639px;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_2.on {top: 92px;width: 612px;height: 628px;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_3.on {top: 75px;width: 612px;height: 644px;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_4.on {top: 78px;width: 614px;height: 642px;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_5.on {top: 77px;width: 612px;height: 646px;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_6.on {top: 77px;width: 612px;height: 642px;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_7.on {top: 90px;width: 612px;height: 630px;}
+body[subject='2-1'] #chapter_popup .chapter_content .chapter_sprite.ani_8.on {top: 100px;width: 612px;height: 620px;}
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/reset.css ***!
+  \*********************************************************************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    word-break: keep-all;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+ol, ul
+{
+    list-style: none;
+}
+blockquote, q
+{
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: '';
+    content: none;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+legend, caption
+{
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden;
+    width: 0
+}
+address, caption, cite, code, dfn, em, strong, b, th, var, h1, h2, h3, h4, h5, h6
+{
+    font-style: normal;
+    font-weight: normal
+}
+body
+{
+    font-family: verdana, arial, sans-serif;
+    font-size: 18px;
+
+    /*
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none; 
+    */
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+    -o-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    highlight-color: rgba(0, 0, 0, 0);
+}
+a
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+textarea, textarea:focus, textarea:hover
+{
+    outline: none;
+    resize:none;
+}

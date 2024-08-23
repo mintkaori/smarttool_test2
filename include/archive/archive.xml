@@ -1,0 +1,503 @@
+<archive>
+  <header>
+    <searchMenu visible="y">
+  </header>
+  <footer>
+    <tsherpaMenu visible="y" title="스마트 교구" link="../tool/index.html"></tsherpaMenu>
+    <mainMenu visible="y" title="홈" link="../main/index.html?subject=math_1-1"></mainMenu>
+    <myClassMakerMenu visible="n" title="내 수업하기"></myClassMakerMenu>
+    <progressMenu visible="y" title="진도 보기"></progressMenu>
+  </footer>
+  <customStyle bgc="#FABEBE">
+    <!-- 폰트 추가 등록 -->
+  	<fontFace>
+      <!-- 이미 등록된 Font family :
+        GmarketSansM, GmarketSansL, GmarketSansB, NotoSansB, NotoSansR, NanumSquareB, NanumSquareRoundB, TmoneyRoundWindRegular, TmoneyRoundWindExtraBold 
+      -->
+      <!-- 폰트 추가 등록 예시 -->
+      <font family="jalnan" src="url('./static/font/JalnanOTF.otf')"></font>
+      <font family="jalnan2" src="url('./static/font/JalnanOTF.otf')"></font>
+	  </fontFace>
+
+	  <!-- body 폰트 적용 -->
+  	<!-- <font family="ZCOOLXiaoWei" source="url('./static/font/ZCOOLXiaoWei-Regular.woff')"></font> -->
+
+    <title width="300" color="#fffff" bgc="#D4145A"></title>
+    <asideMenu color="#4d4d4d" pointColor="#D4145A" numberColor="#f15124" 
+      selectedBg="linear-gradient(to right, #D4145A, #f78d8d)" listSelectedBg="linear-gradient(to left, #f78d8d, #D4145A)" listHoveredBg="#D4145A"
+      numberWidth="24px" numberFontSize="14px" textFontSize="14px"
+      numberFontFamily="NotoSansB" textFontFamily="jalnan2"
+      ></asideMenu> 
+    <selectType bgc="#f2f2f2" selectedBgc="#D4145A" arrowBgc="#c1c1c1" selectedArrowBgc="#D4145A"></selectType>
+    <button bgc="#FDE5E5" textColor="#D4145A"></button>
+  </customStyle>  
+  <!-- <logo link="https://www.chunjae.co.kr/" imageSource="./static/image/logo2.png" left="26" top="678"></logo>      -->
+  <title common="공통 자료" textbook=""></title>
+  <thumbnailTypes>단원 도입 영상, 놀이 영상</thumbnailTypes>
+  <textbook title="초등학교 수학" name="수학">
+  <common>
+    <data name="수학 지도서_1-1(22개정)_총론" type="총론" src="../../data/수학 지도서_1-1(22개정)_총론.pdf" open="y" save="y" scrap="n"></data>
+  </common>
+      
+<!--      1단원-->
+  <depth1 index="1" number="" name="수학을 만나요">
+    <depth2 name="PDF 자료">
+      <depth3 name="수학">
+        <data name="(1-1-0)수학_006~007" type="수학" src="../../data/수학을 만나요/PDF 자료/(1-1-0)수학_006~007.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-0)수학_008~009" type="수학" src="../../data/수학을 만나요/PDF 자료/(1-1-0)수학_008~009.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-0)수학_010~011" type="수학" src="../../data/수학을 만나요/PDF 자료/(1-1-0)수학_010~011.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="수학 지도서">
+        <data name="(1-1-0)수학 지도서_132~135" type="수학 지도서" src="../../data/수학을 만나요/PDF 자료/(1-1-0)수학 지도서_132~135.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-0)수학 지도서_136~137" type="수학 지도서" src="../../data/수학을 만나요/PDF 자료/(1-1-0)수학 지도서_136~137.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-0)수학 지도서_138~139" type="수학 지도서" src="../../data/수학을 만나요/PDF 자료/(1-1-0)수학 지도서_138~139.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+    <depth2 name="학습 자료">
+      <depth3 name="활동지">
+        <data name="1-1-수학을 만나요_02차시_보충1" type="활동지" src="../../data/수학을 만나요/활동지/1-1-수학을 만나요_02차시_보충1.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="1-1-수학을 만나요_02차시_보충2" type="활동지" src="../../data/수학을 만나요/활동지/1-1-수학을 만나요_02차시_보충2.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+  </depth1>
+      
+<!--      2단원-->
+  <depth1 index="2" number="1" name="9까지의 수">
+    <depth2 name="PDF 자료">
+      <depth3 name="수학">
+        <data name="(1-1-1)수학_012~015" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_012~015.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학_016~019" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_016~019.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학_020~023" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_020~023.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학_024~025" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_024~025.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학_026~027" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_026~027.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학_028~029" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_028~029.pdf" open="y" save="y" scrap="n"></data>       
+        <data name="(1-1-1)수학_030~031" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_030~031.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학_032~033" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_032~033.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학_034~035" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_034~035.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학_036~037" type="수학" src="../../data/1단원/PDF 자료/(1-1-1)수학_036~037.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="수학익힘">
+        <data name="(1-1-1)수학익힘_005" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_005.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학익힘_006~007" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_006~007.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-1)수학익힘_008~009" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_008~009.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학익힘_010~011" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_010~011.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학익힘_012~013" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_012~013.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학익힘_014~015" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_014~015.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학익힘_016~017" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_016~017.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학익힘_018~019" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_018~019.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학익힘_020" type="수학익힘" src="../../data/1단원/PDF 자료/(1-1-1)수학익힘_020.pdf" open="y" save="y" scrap="n"></data> 
+      </depth3>
+      <depth3 name="수학 지도서">
+        <data name="(1-1-1)수학 지도서_140~151" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_140~151.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학 지도서_152~155" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_152~155.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-1)수학 지도서_156~159" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_156~159.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학 지도서_160~161" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_160~161.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학 지도서_162~163" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_162~163.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학 지도서_164~165" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_164~165.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학 지도서_166~167" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_166~167.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학 지도서_168~169" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_168~169.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학 지도서_170~171" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_170~171.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)수학 지도서_172~173" type="수학 지도서" src="../../data/1단원/PDF 자료/(1-1-1)수학 지도서_172~173.pdf" open="y" save="y" scrap="n"></data>   
+      </depth3>    
+    </depth2>  
+
+    <depth2 name="평가 자료">
+      <depth3 name="형성평가">
+        <data name="(1-1-1)02~03차시-형성평가-교사용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)02~03차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)02~03차시-형성평가-학생용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)02~03차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)04~05차시-형성평가-교사용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)04~05차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)04~05차시-형성평가-학생용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)04~05차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)06~07차시-형성평가-교사용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)06~07차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)06~07차시-형성평가-학생용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)06~07차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)08~09차시-형성평가-교사용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)08~09차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)08~09차시-형성평가-학생용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)08~09차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)10차시-형성평가-교사용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)10차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)10차시-형성평가-학생용" type="형성평가" src="../../data/1단원/형성평가/(1-1-1)10차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data> 
+        </depth3>    
+      <depth3 name="진단평가">
+        <data name="(1-1-1)진단평가-교사용" type="진단평가" src="../../data/1단원/진단평가/(1-1-1)진단평가-교사용.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="(1-1-1)진단평가-학생용" type="진단평가" src="../../data/1단원/진단평가/(1-1-1)진단평가-학생용.hwp" open="y" save="y" scrap="n"></data>              
+      </depth3>
+      <depth3 name="단원평가1">  
+        <data name="(1-1-1)단원평가1-교사용" type="단원평가1" src="../../data/1단원/단원평가/(1-1-1)단원평가1-교사용.hwp" open="y" save="y" scrap="n"></data>  
+        <data name="(1-1-1)단원평가1-학생용" type="단원평가1" src="../../data/1단원/단원평가/(1-1-1)단원평가1-학생용.hwp" open="y" save="y" scrap="n"></data>           
+      </depth3>
+      <depth3 name="단원평가2">
+        <data name="(1-1-1)단원평가2-교사용" type="단원평가2" src="../../data/1단원/단원평가/(1-1-1)단원평가2-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-1)단원평가2-학생용" type="단원평가2" src="../../data/1단원/단원평가/(1-1-1)단원평가2-학생용.hwp" open="y" save="y" scrap="n"></data> 
+      </depth3>
+    </depth2>
+
+    <depth2 name="학습 자료">
+      <depth3 name="활동지">
+        <data name="1-1-1_02~03차시_보충" type="활동지" src="../../data/1단원/활동지/1-1-1_02~03차시_보충.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-1_04~05차시_보충" type="활동지" src="../../data/1단원/활동지/1-1-1_04~05차시_보충.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-1_07차시_보충" type="활동지" src="../../data/1단원/활동지/1-1-1_07차시_보충.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="1-1-1_08차시_심화" type="활동지" src="../../data/1단원/활동지/1-1-1_08차시_심화.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-1_09차시_심화" type="활동지" src="../../data/1단원/활동지/1-1-1_09차시_심화.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="1-1-1_10차시_보충" type="활동지" src="../../data/1단원/활동지/1-1-1_10차시_보충.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="꾸러미">
+        <data name="1-1-1_12차시_수 그림책" type="꾸러미" src="../../data/1단원/꾸러미/1-1-1_12차시_수 그림책.hwp" open="y" save="y" scrap="n"></data> 
+      </depth3>
+    </depth2>
+
+    <depth2 name="영상">
+      <depth3 name="단원 도입 영상">
+        <data name="1-1-1_9까지의 수" type="단원 도입 영상" src="../../data/video/1-1-1_9까지의 수.mp4" thumbnail="../../data/video/1-1-1_9까지의 수.png" open="y" save="y" scrap="n"></data>  
+      </depth3>
+      <depth3 name="놀이 영상">
+        <!-- <data name="1-1-1_6차시 순서 놀이" type="놀이 영상" src="../../data/video/1-1-1_6차시 순서 놀이.mp4" thumbnail="../../data/video/1-1-1_6차시 순서 놀이.png" open="y" save="y" scrap="n"></data> -->
+        <data name="1-1-1_7차시 순서대로 수 따라가기 놀이" type="놀이 영상" src="../../data/video/1-1-1_7차시 순서대로 수 따라가기 놀이.mp4" thumbnail="../../data/video/1-1-1_7차시 순서대로 수 따라가기 놀이.png" open="y" save="y" scrap="n"></data>
+        <data name="1-1-1_7차시 순서대로 수 카드 놓기 놀이" type="놀이 영상" src="../../data/video/1-1-1_7차시 순서대로 수 카드 놓기 놀이.mp4" thumbnail="../../data/video/1-1-1_7차시 순서대로 수 카드 놓기 놀이.png" open="y" save="y" scrap="n"></data>
+        <data name="1-1-1_8차시 수 알아맞히기 놀이" type="놀이 영상" src="../../data/video/1-1-1_8차시 수 알아맞히기 놀이.mp4" thumbnail="../../data/video/1-1-1_8차시 수 알아맞히기 놀이.png" open="y" save="y" scrap="n"></data>
+        <data name="1-1-1_9차시 하나 덜어 내기 놀이" type="놀이 영상" src="../../data/video/1-1-1_9차시 하나 덜어 내기 놀이.mp4" thumbnail="../../data/video/1-1-1_9차시 하나 덜어 내기 놀이.png" open="y" save="y" scrap="n"></data>
+        <data name="1-1-1_10차시 두 수의 크기 비교하기 놀이" type="놀이 영상" src="../../data/video/1-1-1_10차시 두 수의 크기 비교하기 놀이.mp4" thumbnail="../../data/video/1-1-1_10차시 두 수의 크기 비교하기 놀이.png" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+  </depth1>
+      
+
+<!--      3단원-->
+  <depth1 index="3" number="2" name="여러 가지 모양">
+    <depth2 name="PDF 자료">
+      <depth3 name="수학">
+        <data name="(1-1-2)수학_038~041" type="수학" src="../../data/2단원/PDF 자료/(1-1-2)수학_038~041.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학_042~045" type="수학" src="../../data/2단원/PDF 자료/(1-1-2)수학_042~045.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학_046~047" type="수학" src="../../data/2단원/PDF 자료/(1-1-2)수학_046~047.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학_048~049" type="수학" src="../../data/2단원/PDF 자료/(1-1-2)수학_048~049.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학_050~051" type="수학" src="../../data/2단원/PDF 자료/(1-1-2)수학_050~051.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학_052~053" type="수학" src="../../data/2단원/PDF 자료/(1-1-2)수학_052~053.pdf" open="y" save="y" scrap="n"></data>       
+        <data name="(1-1-2)수학_054~055" type="수학" src="../../data/2단원/PDF 자료/(1-1-2)수학_054~055.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="수학익힘">
+        <data name="(1-1-2)수학익힘_021" type="수학익힘" src="../../data/2단원/PDF 자료/(1-1-2)수학익힘_021.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학익힘_022~023" type="수학익힘" src="../../data/2단원/PDF 자료/(1-1-2)수학익힘_022~023.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-2)수학익힘_024~025" type="수학익힘" src="../../data/2단원/PDF 자료/(1-1-2)수학익힘_024~025.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학익힘_026~027" type="수학익힘" src="../../data/2단원/PDF 자료/(1-1-2)수학익힘_026~027.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학익힘_028~029" type="수학익힘" src="../../data/2단원/PDF 자료/(1-1-2)수학익힘_028~029.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학익힘_030" type="수학익힘" src="../../data/2단원/PDF 자료/(1-1-2)수학익힘_030.pdf" open="y" save="y" scrap="n"></data> 
+      </depth3>
+      <depth3 name="수학 지도서">
+        <data name="(1-1-2)수학 지도서_174~183" type="수학 지도서" src="../../data/2단원/PDF 자료/(1-1-2)수학 지도서_174~183.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학 지도서_184~187" type="수학 지도서" src="../../data/2단원/PDF 자료/(1-1-2)수학 지도서_184~187.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-2)수학 지도서_188~189" type="수학 지도서" src="../../data/2단원/PDF 자료/(1-1-2)수학 지도서_188~189.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학 지도서_190~191" type="수학 지도서" src="../../data/2단원/PDF 자료/(1-1-2)수학 지도서_190~191.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학 지도서_192~193" type="수학 지도서" src="../../data/2단원/PDF 자료/(1-1-2)수학 지도서_192~193.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학 지도서_194~195" type="수학 지도서" src="../../data/2단원/PDF 자료/(1-1-2)수학 지도서_194~195.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)수학 지도서_196~197" type="수학 지도서" src="../../data/2단원/PDF 자료/(1-1-2)수학 지도서_196~197.pdf" open="y" save="y" scrap="n"></data>  
+      </depth3>    
+    </depth2>  
+
+    <depth2 name="평가 자료">
+      <depth3 name="형성평가">
+        <data name="(1-1-2)02~03차시-형성평가-교사용" type="형성평가" src="../../data/2단원/형성평가/(1-1-2)02~03차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)02~03차시-형성평가-학생용" type="형성평가" src="../../data/2단원/형성평가/(1-1-2)02~03차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)04~05차시-형성평가-교사용" type="형성평가" src="../../data/2단원/형성평가/(1-1-2)04~05차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-2)04~05차시-형성평가-학생용" type="형성평가" src="../../data/2단원/형성평가/(1-1-2)04~05차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        </depth3>    
+      <depth3 name="진단평가">
+        <data name="(1-1-2)진단평가-교사용" type="진단평가" src="../../data/2단원/진단평가/(1-1-2)진단평가-교사용.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="(1-1-2)진단평가-학생용" type="진단평가" src="../../data/2단원/진단평가/(1-1-2)진단평가-학생용.hwp" open="y" save="y" scrap="n"></data>             
+      </depth3>
+      <depth3 name="단원평가1">  
+        <data name="(1-1-2)단원평가1-교사용" type="단원평가1" src="../../data/2단원/단원평가/(1-1-2)단원평가1-교사용.hwp" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-2)단원평가1-학생용" type="단원평가1" src="../../data/2단원/단원평가/(1-1-2)단원평가1-학생용.hwp" open="y" save="y" scrap="n"></data>            
+      </depth3>
+      <depth3 name="단원평가2">   
+        <data name="(1-1-2)단원평가2-교사용" type="단원평가2" src="../../data/2단원/단원평가/(1-1-2)단원평가2-교사용.hwp" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-2)단원평가2-학생용" type="단원평가2" src="../../data/2단원/단원평가/(1-1-2)단원평가2-학생용.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+
+    <depth2 name="영상">
+      <depth3 name="단원 도입 영상">
+        <data name="1-1-2_여러 가지 모양" type="단원 도입 영상" src="../../data/video/1-1-2_여러 가지 모양.mp4" thumbnail="../../data/video/1-1-2_여러 가지 모양.png" open="y" save="y" scrap="n"></data>         
+      </depth3>
+    </depth2>
+  </depth1>
+
+
+  <depth1 index="4" number="3" name="덧셈과 뺄셈">
+    <depth2 name="PDF 자료">
+      <depth3 name="수학">
+        <data name="(1-1-3)수학_056~059" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_056~059.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_060~061" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_060~061.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_062~063" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_062~063.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_064~065" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_064~065.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_066~067" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_066~067.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_068~071" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_068~071.pdf" open="y" save="y" scrap="n"></data>       
+        <data name="(1-1-3)수학_072~073" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_072~073.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_074~077" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_074~077.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_078~081" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_078~081.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_082~083" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_082~083.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_084~085" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_084~085.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학_086~087" type="수학" src="../../data/3단원/PDF 자료/(1-1-3)수학_086~087.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="수학익힘">
+        <data name="(1-1-3)수학익힘_031" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_031.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학익힘_032~033" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_032~033.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-3)수학익힘_034~035" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_034~035.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학익힘_036~037" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_036~037.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학익힘_038~039" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_038~039.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학익힘_040~043" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_040~043.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학익힘_044~045" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_044~045.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학익힘_046~049" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_046~049.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학익힘_050~051" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_050~051.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학익힘_052~053" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_052~053.pdf" open="y" save="y" scrap="n"></data>          
+        <data name="(1-1-3)수학익힘_054" type="수학익힘" src="../../data/3단원/PDF 자료/(1-1-3)수학익힘_054.pdf" open="y" save="y" scrap="n"></data> 
+      </depth3>
+      <depth3 name="수학 지도서">
+        <data name="(1-1-3)수학 지도서_198~209" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_198~209.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_210~211" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_210~211.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-3)수학 지도서_212~213" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_212~213.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_214~215" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_214~215.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_216~217" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_216~217.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_218~221" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_218~221.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_222~223" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_222~223.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_224~227" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_224~227.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_228~231" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_228~231.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_232~233" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_232~233.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_234~235" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_234~235.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)수학 지도서_236~237" type="수학 지도서" src="../../data/3단원/PDF 자료/(1-1-3)수학 지도서_236~237.pdf" open="y" save="y" scrap="n"></data>  
+      </depth3>    
+    </depth2>  
+
+    <depth2 name="평가 자료">
+      <depth3 name="형성평가">
+        <data name="(1-1-3)02~03차시-형성평가-교사용" type="형성평가" src="../../data/3단원/형성평가/(1-1-3)02~03차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)02~03차시-형성평가-학생용" type="형성평가" src="../../data/3단원/형성평가/(1-1-3)02~03차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)05~07차시-형성평가-교사용" type="형성평가" src="../../data/3단원/형성평가/(1-1-3)05~07차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)05~07차시-형성평가-학생용" type="형성평가" src="../../data/3단원/형성평가/(1-1-3)05~07차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)08~10차시-형성평가-교사용" type="형성평가" src="../../data/3단원/형성평가/(1-1-3)08~10차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)08~10차시-형성평가-학생용" type="형성평가" src="../../data/3단원/형성평가/(1-1-3)08~10차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)11~12차시-형성평가-교사용" type="형성평가" src="../../data/3단원/형성평가/(1-1-3)11~12차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)11~12차시-형성평가-학생용" type="형성평가" src="../../data/3단원/형성평가/(1-1-3)11~12차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        </depth3>
+      <depth3 name="진단평가">
+        <data name="(1-1-3)진단평가-교사용" type="진단평가" src="../../data/3단원/진단평가/(1-1-3)진단평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)진단평가-학생용" type="진단평가" src="../../data/3단원/진단평가/(1-1-3)진단평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="단원평가1">  
+        <data name="(1-1-3)단원평가1-교사용" type="단원평가1" src="../../data/3단원/단원평가/(1-1-3)단원평가1-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)단원평가1-학생용" type="단원평가1" src="../../data/3단원/단원평가/(1-1-3)단원평가1-학생용.hwp" open="y" save="y" scrap="n"></data> 
+      </depth3>
+      <depth3 name="단원평가2">   
+        <data name="(1-1-3)단원평가2-교사용" type="단원평가2" src="../../data/3단원/단원평가/(1-1-3)단원평가2-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-3)단원평가2-학생용" type="단원평가2" src="../../data/3단원/단원평가/(1-1-3)단원평가2-학생용.hwp" open="y" save="y" scrap="n"></data> 
+      </depth3>
+    </depth2>
+
+    <depth2 name="학습 자료">
+      <depth3 name="활동지">
+        <data name="1-1-3_03차시_기본" type="활동지" src="../../data/3단원/활동지/1-1-3_03차시_기본.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-3_06~07차시_기본" type="활동지" src="../../data/3단원/활동지/1-1-3_06~07차시_기본.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-3_09~10차시_기본" type="활동지" src="../../data/3단원/활동지/1-1-3_09~10차시_기본.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-3_11차시_기본" type="활동지" src="../../data/3단원/활동지/1-1-3_11차시_기본.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="1-1-3_11차시_보충" type="활동지" src="../../data/3단원/활동지/1-1-3_11차시_보충.hwp" open="y" save="y" scrap="n"></data>         
+      </depth3>
+    </depth2>
+
+    <depth2 name="영상">
+      <depth3 name="단원 도입 영상">
+        <data name="1-1-3_덧셈과 뺄셈" type="단원 도입 영상" src="../../data/video/1-1-3_덧셈과 뺄셈.mp4" thumbnail="../../data/video/1-1-3_덧셈과 뺄셈.png" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="놀이 영상">
+          <data name="1-1-3_2차시 고리 던지기 놀이" type="놀이 영상" src="../../data/video/1-1-3_2차시 고리 던지기 놀이.mp4" thumbnail="../../data/video/1-1-3_2차시 고리 던지기 놀이.png" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+  </depth1>
+
+
+  <depth1 index="5" number="4" name="비교하기">
+    <depth2 name="PDF 자료">
+      <depth3 name="수학">
+        <data name="(1-1-4)수학_088~091" type="수학" src="../../data/4단원/PDF 자료/(1-1-4)수학_088~091.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학_092~093" type="수학" src="../../data/4단원/PDF 자료/(1-1-4)수학_092~093.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학_094~095" type="수학" src="../../data/4단원/PDF 자료/(1-1-4)수학_094~095.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학_096~097" type="수학" src="../../data/4단원/PDF 자료/(1-1-4)수학_096~097.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학_098~099" type="수학" src="../../data/4단원/PDF 자료/(1-1-4)수학_098~099.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학_100~101" type="수학" src="../../data/4단원/PDF 자료/(1-1-4)수학_100~101.pdf" open="y" save="y" scrap="n"></data>       
+        <data name="(1-1-4)수학_102~103" type="수학" src="../../data/4단원/PDF 자료/(1-1-4)수학_102~103.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="수학익힘">
+        <data name="(1-1-4)수학익힘_055" type="수학익힘" src="../../data/4단원/PDF 자료/(1-1-4)수학익힘_055.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학익힘_056~057" type="수학익힘" src="../../data/4단원/PDF 자료/(1-1-4)수학익힘_056~057.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-4)수학익힘_058~059" type="수학익힘" src="../../data/4단원/PDF 자료/(1-1-4)수학익힘_058~059.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학익힘_060~061" type="수학익힘" src="../../data/4단원/PDF 자료/(1-1-4)수학익힘_060~061.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학익힘_062~063" type="수학익힘" src="../../data/4단원/PDF 자료/(1-1-4)수학익힘_062~063.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학익힘_064" type="수학익힘" src="../../data/4단원/PDF 자료/(1-1-4)수학익힘_064.pdf" open="y" save="y" scrap="n"></data> 
+      </depth3>
+      <depth3 name="수학 지도서">
+        <data name="(1-1-4)수학 지도서_238~249" type="수학 지도서" src="../../data/4단원/PDF 자료/(1-1-4)수학 지도서_238~249.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학 지도서_250~251" type="수학 지도서" src="../../data/4단원/PDF 자료/(1-1-4)수학 지도서_250~251.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-4)수학 지도서_252~253" type="수학 지도서" src="../../data/4단원/PDF 자료/(1-1-4)수학 지도서_252~253.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학 지도서_254~255" type="수학 지도서" src="../../data/4단원/PDF 자료/(1-1-4)수학 지도서_254~255.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학 지도서_256~257" type="수학 지도서" src="../../data/4단원/PDF 자료/(1-1-4)수학 지도서_256~257.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학 지도서_258~259" type="수학 지도서" src="../../data/4단원/PDF 자료/(1-1-4)수학 지도서_258~259.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)수학 지도서_260~261" type="수학 지도서" src="../../data/4단원/PDF 자료/(1-1-4)수학 지도서_260~261.pdf" open="y" save="y" scrap="n"></data> 
+      </depth3>    
+    </depth2>  
+
+    <depth2 name="평가 자료">
+      <depth3 name="형성평가">
+        <data name="(1-1-4)02차시-형성평가-교사용" type="형성평가" src="../../data/4단원/형성평가/(1-1-4)02차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)02차시-형성평가-학생용" type="형성평가" src="../../data/4단원/형성평가/(1-1-4)02차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)03차시-형성평가-교사용" type="형성평가" src="../../data/4단원/형성평가/(1-1-4)03차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)03차시-형성평가-학생용" type="형성평가" src="../../data/4단원/형성평가/(1-1-4)03차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)04차시-형성평가-교사용" type="형성평가" src="../../data/4단원/형성평가/(1-1-4)04차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)04차시-형성평가-학생용" type="형성평가" src="../../data/4단원/형성평가/(1-1-4)04차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)05차시-형성평가-교사용" type="형성평가" src="../../data/4단원/형성평가/(1-1-4)05차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)05차시-형성평가-학생용" type="형성평가" src="../../data/4단원/형성평가/(1-1-4)05차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>    
+      <depth3 name="진단평가">
+        <data name="(1-1-4)진단평가-교사용" type="진단평가" src="../../data/4단원/진단평가/(1-1-4)진단평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-4)진단평가-학생용" type="진단평가" src="../../data/4단원/진단평가/(1-1-4)진단평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="단원평가1">  
+        <data name="(1-1-4)단원평가1-교사용" type="단원평가1" src="../../data/4단원/단원평가/(1-1-4)단원평가1-교사용.hwp" open="y" save="y" scrap="n"></data>  
+        <data name="(1-1-4)단원평가1-학생용" type="단원평가1" src="../../data/4단원/단원평가/(1-1-4)단원평가1-학생용.hwp" open="y" save="y" scrap="n"></data>         
+      </depth3>
+      <depth3 name="단원평가2">   
+        <data name="(1-1-4)단원평가2-교사용" type="단원평가2" src="../../data/4단원/단원평가/(1-1-4)단원평가2-교사용.hwp" open="y" save="y" scrap="n"></data>    
+        <data name="(1-1-4)단원평가2-학생용" type="단원평가2" src="../../data/4단원/단원평가/(1-1-4)단원평가2-학생용.hwp" open="y" save="y" scrap="n"></data> 
+      </depth3>
+    </depth2>
+
+    <depth2 name="영상">
+      <depth3 name="단원 도입 영상">
+        <data name="1-1-4_비교하기" type="단원 도입 영상" src="../../data/video/1-1-4_비교하기.mp4" thumbnail="../../data/video/1-1-4_비교하기.png" open="y" save="y" scrap="n"></data>            
+      </depth3>
+      <depth3 name="놀이 영상">
+        <data name="1-1-4_2차시 길이 비교하기 놀이" type="놀이 영상" src="../../data/video/1-1-4_2차시 길이 비교하기 놀이.mp4" thumbnail="../../data/video/1-1-4_2차시 길이 비교하기 놀이.png" open="y" save="y" scrap="n"></data>             
+        <data name="1-1-4_3차시 무게 비교하기 놀이" type="놀이 영상" src="../../data/video/1-1-4_3차시 무게 비교하기 놀이.mp4" thumbnail="../../data/video/1-1-4_3차시 무게 비교하기 놀이.png" open="y" save="y" scrap="n"></data>   
+        <data name="1-1-4_4차시 넓이 비교하기 놀이" type="놀이 영상" src="../../data/video/1-1-4_4차시 넓이 비교하기 놀이.mp4" thumbnail="../../data/video/1-1-4_4차시 넓이 비교하기 놀이.png" open="y" save="y" scrap="n"></data>
+        <data name="1-1-4_5차시 담을 수 있는 양 비교하기 놀이" type="놀이 영상" src="../../data/video/1-1-4_5차시 담을 수 있는 양 비교하기 놀이.mp4" thumbnail="../../data/video/1-1-4_5차시 담을 수 있는 양 비교하기 놀이.png" open="y" save="y" scrap="n"></data>             
+        <data name="1-1-4_7차시 점토로 만들어 비교하기 놀이" type="놀이 영상" src="../../data/video/1-1-4_7차시 점토로 만들어 비교하기 놀이.mp4" thumbnail="../../data/video/1-1-4_7차시 점토로 만들어 비교하기 놀이.png" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+  </depth1>
+
+
+  <depth1 index="6" number="5" name="50까지의 수">
+    <depth2 name="PDF 자료">
+      <depth3 name="수학">
+        <data name="(1-1-5)수학_104~107" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_104~107.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학_108~111" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_108~111.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학_112~115" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_112~115.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학_116~119" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_116~119.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학_120~123" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_120~123.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학_124~127" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_124~127.pdf" open="y" save="y" scrap="n"></data>       
+        <data name="(1-1-5)수학_128~129" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_128~129.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학_130~131" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_130~131.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학_132~133" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_132~133.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학_134~135" type="수학" src="../../data/5단원/PDF 자료/(1-1-5)수학_134~135.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="수학익힘">
+        <data name="(1-1-5)수학익힘_065" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_065.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학익힘_066~069" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_066~069.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-5)수학익힘_070~071" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_070~071.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학익힘_072~073" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_072~073.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학익힘_074~075" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_074~075.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학익힘_076~077" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_076~077.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학익힘_078~079" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_078~079.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학익힘_080~081" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_080~081.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학익힘_082" type="수학익힘" src="../../data/5단원/PDF 자료/(1-1-5)수학익힘_082.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="수학 지도서">
+        <data name="(1-1-5)수학 지도서_262~273" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_262~273.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학 지도서_274~277" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_274~277.pdf" open="y" save="y" scrap="n"></data>   
+        <data name="(1-1-5)수학 지도서_278~281" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_278~281.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학 지도서_282~285" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_282~285.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학 지도서_286~289" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_286~289.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학 지도서_290~293" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_290~293.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학 지도서_294~295" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_294~295.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학 지도서_296~297" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_296~297.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학 지도서_298~299" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_298~299.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)수학 지도서_300~301" type="수학 지도서" src="../../data/5단원/PDF 자료/(1-1-5)수학 지도서_300~301.pdf" open="y" save="y" scrap="n"></data> 
+      </depth3>    
+    </depth2>  
+
+    <depth2 name="평가 자료">
+      <depth3 name="형성평가">
+        <data name="(1-1-5)02~04차시-형성평가-교사용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)02~04차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)02~04차시-형성평가-학생용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)02~04차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)05차시-형성평가-교사용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)05차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)05차시-형성평가-학생용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)05차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)06~07차시-형성평가-교사용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)06~07차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)06~07차시-형성평가-학생용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)06~07차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)08차시-형성평가-교사용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)08차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)08차시-형성평가-학생용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)08차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)09차시-형성평가-교사용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)09차시-형성평가-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)09차시-형성평가-학생용" type="형성평가" src="../../data/5단원/형성평가/(1-1-5)09차시-형성평가-학생용.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>    
+      <depth3 name="진단평가">
+        <data name="(1-1-5)진단평가-교사용" type="진단평가" src="../../data/5단원/진단평가/(1-1-5)진단평가-교사용.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="(1-1-5)진단평가-학생용" type="진단평가" src="../../data/5단원/진단평가/(1-1-5)진단평가-학생용.hwp" open="y" save="y" scrap="n"></data>                
+      </depth3>
+      <depth3 name="단원평가1">  
+        <data name="(1-1-5)단원평가1-교사용" type="단원평가1" src="../../data/5단원/단원평가/(1-1-5)단원평가1-교사용.hwp" open="y" save="y" scrap="n"></data>  
+        <data name="(1-1-5)단원평가1-학생용" type="단원평가1" src="../../data/5단원/단원평가/(1-1-5)단원평가1-학생용.hwp" open="y" save="y" scrap="n"></data>         
+      </depth3>
+      <depth3 name="단원평가2">   
+        <data name="(1-1-5)단원평가2-교사용" type="단원평가2" src="../../data/5단원/단원평가/(1-1-5)단원평가2-교사용.hwp" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-5)단원평가2-학생용" type="단원평가2" src="../../data/5단원/단원평가/(1-1-5)단원평가2-학생용.hwp" open="y" save="y" scrap="n"></data> 
+      </depth3>
+    </depth2>
+
+    <depth2 name="학습 자료">
+      <depth3 name="활동지">
+        <data name="1-1-5_04차시_보충1" type="활동지" src="../../data/5단원/활동지/1-1-5_04차시_보충1.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-5_04차시_보충2" type="활동지" src="../../data/5단원/활동지/1-1-5_04차시_보충2.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-5_05차시_보충1" type="활동지" src="../../data/5단원/활동지/1-1-5_05차시_보충1.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-5_05차시_보충2" type="활동지" src="../../data/5단원/활동지/1-1-5_05차시_보충2.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-5_08차시_보충" type="활동지" src="../../data/5단원/활동지/1-1-5_08차시_보충.hwp" open="y" save="y" scrap="n"></data>
+        <data name="1-1-5_08차시_심화" type="활동지" src="../../data/5단원/활동지/1-1-5_08차시_심화.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="꾸러미">
+        <data name="1-1-5_02~03차시_수 카드" type="꾸러미" src="../../data/5단원/꾸러미/1-1-5_02~03차시_수 카드.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="1-1-5_05차시_놀이판" type="꾸러미" src="../../data/5단원/꾸러미/1-1-5_05차시_놀이판.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="1-1-5_09차시_놀이판" type="꾸러미" src="../../data/5단원/꾸러미/1-1-5_09차시_놀이판.hwp" open="y" save="y" scrap="n"></data> 
+        <data name="1-1-5_11차시_놀이판" type="꾸러미" src="../../data/5단원/꾸러미/1-1-5_11차시_놀이판.hwp" open="y" save="y" scrap="n"></data> 
+      </depth3>
+    </depth2>
+
+    <depth2 name="영상">
+      <depth3 name="단원 도입 영상">
+        <data name="1-1-5_50까지의 수" type="단원 도입 영상" src="../../data/video/1-1-5_50까지의 수.mp4" thumbnail="../../data/video/1-1-5_50까지의 수.png" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="놀이 영상">
+        <data name="1-1-5_2~3차시 10 만들기 놀이" type="놀이 영상" src="../../data/video/1-1-5_2~3차시 10 만들기 놀이.mp4" thumbnail="../../data/video/1-1-5_2~3차시 10 만들기 놀이.png" open="y" save="y" scrap="n"></data>
+        <data name="1-1-5_9차시 수 이어가기 놀이" type="놀이 영상" src="../../data/video/1-1-5_9차시 수 이어가기 놀이.mp4" thumbnail="../../data/video/1-1-5_9차시 수 이어가기 놀이.png" open="y" save="y" scrap="n"></data>
+        <data name="1-1-5_10차시 크다 작다 놀이" type="놀이 영상" src="../../data/video/1-1-5_10차시 크다 작다 놀이.mp4" thumbnail="../../data/video/1-1-5_10차시 크다 작다 놀이.png" open="y" save="y" scrap="n"></data>
+        <data name="1-1-5_10차시 수의 크기 비교하기 놀이" type="놀이 영상" src="../../data/video/1-1-5_10차시 수의 크기 비교하기 놀이.mp4" thumbnail="../../data/video/1-1-5_10차시 수의 크기 비교하기 놀이.png" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+  </depth1>
+
+  <depth1 index="7" number="" name="수학이랑 함께해요">
+    <depth2 name="PDF 자료">
+      <depth3 name="수학">
+        <data name="(1-1-6)수학_136~139" type="수학" src="../../data/수학이랑 함께해요/PDF 자료/(1-1-6)수학_136~139.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-6)수학_140~141" type="수학" src="../../data/수학이랑 함께해요/PDF 자료/(1-1-6)수학_140~141.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-6)수학_142~143" type="수학" src="../../data/수학이랑 함께해요/PDF 자료/(1-1-6)수학_142~143.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+      <depth3 name="수학 지도서">
+        <data name="(1-1-6)수학 지도서_302~311" type="수학 지도서" src="../../data/수학이랑 함께해요/PDF 자료/(1-1-6)수학 지도서_302~311.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-6)수학 지도서_312~313" type="수학 지도서" src="../../data/수학이랑 함께해요/PDF 자료/(1-1-6)수학 지도서_312~313.pdf" open="y" save="y" scrap="n"></data>
+        <data name="(1-1-6)수학 지도서_314~315" type="수학 지도서" src="../../data/수학이랑 함께해요/PDF 자료/(1-1-6)수학 지도서_314~315.pdf" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+    <depth2 name="학습 자료">
+      <depth3 name="꾸러미">
+          <data name="1-1-수학이랑 함께해요_01차시_수학 보물" type="꾸러미" src="../../data/수학이랑 함께해요/꾸러미/1-1-수학이랑 함께해요_01차시_수학 보물.hwp" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+    <depth2 name="영상">
+      <depth3 name="단원 도입 영상">
+        <data name="1-1-6_수학이랑 함께해요" type="단원 도입 영상" src="../../data/video/1-1-6_수학이랑 함께해요.mp4" thumbnail="../../data/video/1-1-6_수학이랑 함께해요.png" open="y" save="y" scrap="n"></data>
+      </depth3>
+    </depth2>
+  </depth1>
+</textbook>
+ </archive>

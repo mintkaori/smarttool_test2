@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- load jj binder script -->
+    <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../../../js/binder_web.min.js" type="text/javascript"></script>
+    <!-- // load jj binder script -->
+    <title></title>
+  </head>
+  <body style="opacity: 0">
+    <div id="responsive" class="responsive">
+      <div id="wrapper" class="wrapper">
+        <header class="header">
+          <div class="header__title"></div>
+          <button id="helpButton" class="main__button--help header__help">사용 안내</button>
+          <button id="closeButton" class="main__button--close header__close"></button>
+        </header>
+
+        <main class="main">
+          <section class="section section--right section--top">
+            <div class="section--top__layer section--top__layer--top">
+              <div class="section--top__title section__title big">수업 목록</div>
+            </div>
+
+            <div class="section--top__layer section--top__layer--middle">
+              <div id="folderList" class="folder-list"></div>
+            </div>
+
+            <div class="section--top__layer section--top__layer--bottom">
+              <div id="folderButtons" class="folder-button-container">
+                <button id="createFolder" class="main__button folder-button--createFolder">추가</button>
+                <button id="copyFolder" class="main__button folder-button--copyFolder">복사</button>
+                <button id="updateFolder" class="main__button folder-button--updateFolder">수정</button>
+                <button id="deleteFolder" class="main__button folder-button--deleteFolder">삭제</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="section section--right section--bottom">
+            <div class="section--bottom__layer section--bottom__layer--top">
+              <div class="section--bottom__title section__title big">수업 미리보기</div>
+            </div>
+
+            <div class="section--bottom__layer section--bottom__layer--middle">
+              <div id="previewer" class="previewer"></div>
+            </div>
+
+            <div class="section--bottom__layer section--bottom__layer--bottom">
+              <button id="goToViewerButton" class="go-to-viewer-button"></button>
+            </div>
+          </section>
+
+          <section class="section section--center">
+            <div class="section--center__layer section--center__layer--top">
+              <div class="section--center__title section__title big">수업 꾸미기</div>
+              <div id="selectAllDatas" class="section--center__layer--top--selectall">
+                <div class="data__checkbox">
+                  <input class="data__checkbox__input" type="checkbox">
+                  <label class="data__checkbox__label"></label>
+                </div>
+                <span class="section--center__layer--top--selectall__label">전체 선택</span>
+              </div>
+              <!-- <button id="updateDatasButton" class="main__button section--left__layer--top__update">저장</button> -->
+              <button id="deleteDatasButton" class="delete-datas-button">
+                <div class="delete-datas-button__icon"></div>
+                <div class="delete-datas-button__text">삭제</div>
+              </button>
+            </div>
+
+            <div class="section--center__layer section--center__layer--middle">
+              <div id="dataList" class="data-list"></div>
+            </div>
+
+            <!-- <div class="section--center__layer section--center__layer--bottom">
+            <div class="section--center__layer--bottom__add"></div>
+          </div> -->
+          </section>
+
+          <section class="section section--left">
+            <div class="section--left__layer section--left__layer--top">
+              <div class="section--left__title section__title big">스크랩 자료</div>
+              <button id="changeDefaultDataListModeButton" class="button--ddl-mode-change"></button>
+              <div id="searchLesson" class="search-lesson">
+                <label for="searchLessonInput" class="text-input--search search-lesson__input">
+                  <input id="searchLessonInput" type="text" placeholder="단원을 선택하세요." value="전체" readonly />
+                  <div class="search-lesson__input__arrow"></div>
+                </label>
+              </div>
+            </div>
+
+            <div class="section--left__layer section--left__layer--middle">
+              <div id="defaultDataList" class="default-data-list"></div>
+            </div>
+
+            <div class="section--left__layer section--left__layer--bottom">
+              <div class="default-data-button-layer">
+                <div id="selectAllDefaultData" class="default-data-button-layer--selectall">
+                  <div class="data__checkbox">
+                    <input class="data__checkbox__input" type="checkbox">
+                    <label class="data__checkbox__label"></label>
+                  </div>
+                  <span class="default-data-button-layer--selectall__label">전체 선택</span>
+                </div>
+                <!-- <button id="archiveButton" class="main__button archive">자료실</button> -->
+                <button id="deleteDefaultDatasButton" class="main__button delete">삭제</button>
+              </div>
+
+              <div class="local-data-layer">
+                <span class="local-data-layer__label">자료 추가</span>
+                <label for="localDataInput" class="text-input--data text-input--disabled">
+                  <input id="localDataInput" type="text" placeholder="내 컴퓨터의 자료를 추가해 주세요." disabled="" />
+                </label>
+                <button id="localDataButton" class="main__button small">추가</button>
+                <input id="localDataFileInput" class="hidden" type="file" tabindex="-1" />
+              </div>
+
+              <div class="link-data-layer">
+                <span class="link-data-layer__label">URL 추가</span>
+                <label for="linkDataInput" class="text-input--data">
+                  <input id="linkDataInput" type="text" placeholder="인터넷 주소를 입력하여 추가해 주세요." />
+                </label>
+                <button id="linkDataButton" class="main__button small">추가</button>
+              </div>
+            </div>
+
+            <div id="lessons" class="search-lesson__lessons">
+              <ul>
+                <li>1 단원</li>
+                <li>2 단원</li>
+              </ul>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer"></footer>
+      </div>
+    </div>
+    <!-- <button id="createRandContentDataButton">add fake content data</button> -->
+    <script src="./main.js"></script>
+    <script src="./scrap.js"></script>
+  </body>
+</html>
